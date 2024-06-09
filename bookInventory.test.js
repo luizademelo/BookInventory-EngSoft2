@@ -1,4 +1,5 @@
-import { Book, BookInventory } from ".";
+const Book = require('./Book');
+const BookInventory = require('./BookInventory');
 
 
 describe('Book', () => 
