@@ -1,9 +1,11 @@
 {
   "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
     "jest": "^29.7.0"
   },
-"scripts": {
-  "start": "node index.js",
-  "test": "jest bookInventory.test.js"
-}
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest bookInventory.test.js"
+  }
 }
