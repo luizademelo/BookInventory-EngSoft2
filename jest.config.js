@@ -1,7 +1,6 @@
-module.exports = {
-    preset: '@babel/preset-env',
-    transform: {
-        '^.+\\.(js|jsx)$': 'babel-jest',
-    },
-    testEnvironment: 'jsdom',
+/** @type {import('jest').Config} */
+const config = {
+    verbose: true,
 };
+
+module.exports = config;
