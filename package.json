@@ -4,6 +4,6 @@
   },
   "scripts": {
       "start": "node index.js",
-      "test": "bookInventory.test.js"
+      "test": "bookInventory"
     }
 }
