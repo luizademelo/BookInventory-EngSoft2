@@ -22,4 +22,9 @@ describe('BookInventory', () => {
             new Book('The Great Gatsby', 'A novel by F. Scott Fitzgerald', 1925)
         );
     });
+
+    it('delete de um livro', () => {
+        inventory.deleteBook('The Great Gatsby');
+        expect(inventory.getSize()).toBe(1);
+    })
 });
